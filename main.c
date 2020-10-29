@@ -4,6 +4,9 @@
 #define COLS 3
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+void addMatrix(int A[][COLS], int B[][COLS], int C[][COLS]);
+void printMatrix(int A[][COLS]);
+
 int main(void) {
 	int A[ROWS][COLS] = { //더하기 대상 행렬
 		{2,3,0},
